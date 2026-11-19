@@ -1,0 +1,80 @@
+// 1. DEKLARASI VARIABEL
+let namaVariabel = 'nilaiString';
+const NAMA_KONSTANTA = 123;
+var variabelLama = true;
+
+// 2. TIPE DATA DASAR
+let tipeString = 'teks';
+let tipeNumber = 100;
+let tipeBoolean = true;
+let tipeNull = null;
+let tipeUndefined;
+let tipeArray = ['elemen1', 'elemen2'];
+let tipeObject = { kunci1: 'nilai1', kunci2: 'nilai2' };
+
+// 3. OPERATOR
+let hasilTambah = 1 + 1;
+let hasilKurang = 2 - 1;
+let hasilKali = 2 * 2;
+let hasilBagi = 4 / 2;
+let hasilSisa = 5 % 2;
+
+let samaDengan = (1 === 1);
+let tidakSama = (1 !== 2);
+let lebihBesar = (5 > 2);
+let logikaDan = (true && false);
+let logikaAtau = (true || false);
+
+// 4. DIALOG & OUTPUT
+console.log(namaVariabel);
+alert('pesan');
+prompt('masukkan input:');
+confirm('konfirmasi?');
+
+// 5. PENGONDISIAN (IF / ELSE)
+if (kondisi1) {
+  // kode jika kondisi1 true
+} else if (kondisi2) {
+  // kode jika kondisi2 true
+} else {
+  // kode jika semua kondisi false
+}
+
+switch (variabelUji) {
+  case 'nilai1':
+    // kode
+    break;
+  case 'nilai2':
+    // kode
+    break;
+  default:
+    // kode
+}
+
+// 6. PERULANGAN (LOOPING)
+for (let i = 0; i < 5; i++) {
+  // kode berulang
+}
+
+while (kondisi) {
+  // kode berulang
+}
+
+do {
+  // kode minimal jalan sekali
+} while (kondisi);
+
+// 7. FUNGSI (FUNCTION)
+function namaFungsi(parameter1, parameter2) {
+  return parameter1 + parameter2;
+}
+
+const fungsiArrow = (param1) => {
+  return param1;
+};
+
+// 8. MANIPULASI DOM (INTERAKSI DENGAN HTML)
+document.getElementById('idElemen').innerText = 'teks baru';
+document.querySelector('.kelasElemen').addEventListener('click', function() {
+  // kode saat elemen diklik
+});
